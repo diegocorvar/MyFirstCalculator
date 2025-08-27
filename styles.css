@@ -1,0 +1,104 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #202020;
+}
+
+#displayPad{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 2%;
+    width: 95%;
+    height: 20%;
+    border-radius: 5px;
+    background-color: #191919;
+    position: relative;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+#displayNumber{
+    margin: 0 auto;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12vh;
+    position: absolute;
+    right: 5%;
+    bottom: 0;
+    max-height: 80%;
+    overflow: hidden;
+}
+
+.btnNumber{
+    position: relative;
+    left: 3%;
+    top: 15px;
+    margin-bottom: 8px;
+    width: 30.7%;
+    height: 22.5%;
+    font-size: 8vh;
+    background-color: #202020;
+    border-radius: 5px;
+    color: rgb(51, 153, 97);
+    cursor: pointer;
+    user-select: none;
+}
+
+#btnDelete{
+    height: 9%;
+    font-size: 5vh;
+}
+
+#btnReset{
+    height: 9%;
+    font-size: 5vh;
+}
+
+#btnPad{
+    position: relative;
+    height: 80%;
+    width: 100%;
+}
+
+#numbersPad{
+    width: 73.5%;
+    height: 95%;
+    border-radius: 5px;
+    position: relative;
+    left: 3%;
+    top: 1%;
+    background-color: rgb(23, 23, 23);
+}
+
+#OperationsPad{
+    position: relative;
+    bottom: 94%;
+    flex-direction: column;
+    align-items: center;
+    width: 20.5%;
+    height: 95%;
+    left: 78%;
+    border-radius: 5px;
+    background-color: rgb(23, 23, 23);
+}
+
+.btnOperation{
+    left: 6%;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    top: 15px;
+    margin-bottom: 6px;
+    border-radius: 5px;
+    height: 18%;
+    background-color: #202020;
+    color: rgb(51, 153, 97);
+    cursor: pointer;
+    font-size: 8vh;
+    user-select: none;
+}
